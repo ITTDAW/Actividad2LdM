@@ -1,0 +1,77 @@
+
+
+<!ELEMENT biblioteca (libro+,periodico+,revista+)>
+    <!ATTLIST biblioteca nombre CDATA #REQUIRED>
+
+	<!--Vamos a elaborar una estructura de base de datos en XML que permita almacenar los datos de una biblioteca en la red. Para ello se pide que elabores un DTD que permita validar los documentos XML con las siguientes características:
+Existen tres tipos de documentos almacenados en la biblioteca: libros, revistas y periódicos. Todos los documentos están identificados por el atributo Id.
+Para los libros este atributo empieza con la letra “L” seguido de 4 dígitos identificativos.
+Para los periódicos este atributo empieza por la letra “P” seguido de los 4 dígitos identificativos.
+En el caso de las revistas empieza por la letra “R”.
+
+Los libros a su vez son clasificados en novela, infantil o didáctico. Cada libro contiene un atributo identificativo de su clase denominado tipo_clase. Dentro de cada libro se tiene un título, varios capítulos con el título en su interior, un índice y una sinopsis. Tanto en libro como en capítulo existe un atributo que contiene el número de páginas del libro o del capítulo, según corresponda. Cada capítulo contiene un elemento denominado contenido, en el que se tiene un atributo con el enlace a la información.-->    	
+    	
+    	
+    	
+    		
+    		<!ELEMENT libro (nombre_libro,autor,paginas_libro,indice,sinopsis)>
+    		<!ATTLIST libro id CDATA #REQUIRED>
+			<!ATTLIST libro tipo_clase CDATA #REQUIRED>
+    		<!ELEMENT nombre_libro (#PCDATA)>
+    		<!ELEMENT autor (#PCDATA)>
+    		<!ELEMENT paginas_libro (#PCDATA)>
+    		<!ATTLIST paginas_libro numero CDATA #REQUIRED>
+			<!ELEMENT indice (capitulo+)>
+				<!ELEMENT capitulo (titulo,contenido_capitulo,paginas_capitulo)>
+				<!ATTLIST capitulo numero CDATA #REQUIRED>
+
+    			<!ELEMENT titulo (#PCDATA)>
+    			<!ELEMENT contenido_capitulo (#PCDATA)>
+    			<!ATTLIST contenido_capitulo enlace  CDATA #REQUIRED>
+    			<!ELEMENT paginas_capitulo (#PCDATA)>
+    			<!ATTLIST paginas_capitulo numero CDATA #REQUIRED>
+			<!ELEMENT sinopsis (#PCDATA)>
+    			
+<!--Los periódicos se clasifican en nacionales e internacionales. Cada periódico contiene el atributo tipo_clase identificativo de la clase a la que pertenece y un atributo que incluye la fecha de publicación.
+-->
+<!--Dentro de los periódicos tenemos secciones y un índice. Cada sección debe contener un atributo identificativo del tipo de sección, que puede ser: económica, opinión, deportes, nacional o internacional. Las secciones se dividen en artículos, en donde se define en un atributo el autor. Finalmente, el contenido será el último elemento del árbol, que necesita un atributo que referencie a la información.-->
+
+
+    	
+    	
+
+    		<!ELEMENT periodico (nombre_periodico,indice_periodico)>
+    		<!ATTLIST periodico id CDATA #REQUIRED>
+			<!ATTLIST periodico tipo_clase CDATA #REQUIRED>
+    		<!ELEMENT nombre_periodico (#PCDATA)>
+    		<!ATTLIST nombre_periodico añopublicacion CDATA #REQUIRED>
+    		<!ELEMENT indice_periodico (seccion_periodico+)>
+    			<!ELEMENT seccion_periodico (articulo+)>
+    			<!ATTLIST seccion_periodico tipo_seccion CDATA #REQUIRED>
+
+    				<!ELEMENT articulo (nombre_articulo,contenido)>
+    				<!ATTLIST articulo nombre_autor CDATA #REQUIRED>
+    				<!ELEMENT nombre_articulo (#PCDATA)>
+    				<!ELEMENT contenido (#PCDATA)>
+    				<!ATTLIST contenido informacion CDATA #REQUIRED>
+
+<!--Las revistas a su vez son clasificadas en: informática, corazón, coches, investigación y otras. Cada revista tiene el atributo tipo_clase identificativo de la clase a la que pertenece. -->
+<!--Dentro de cada revista tenemos el título, el número de la revista, un índice de contenido y las secciones. En cada sección y en la revista se tiene un atributo que contiene el número de páginas. Además, en cada sección se tiene la parte denominada contenido, en la que se tiene un atributo con un enlace a la información. De igual forma que en los anteriores, la última etiqueta del árbol debe ser el contenido con un atributo que referencia al contenido.-->
+
+    	
+    	
+
+    		<!ELEMENT revista (titulo_revista,numerorevista,indice_revista)>
+			<!ATTLIST revista id CDATA #REQUIRED>
+    		<!ATTLIST revista tipo_clase CDATA #REQUIRED>
+    			<!ELEMENT titulo_revista (#PCDATA)>
+    			<!ELEMENT numerorevista (#PCDATA)>
+    			<!ATTLIST numerorevista numeropaginas CDATA #REQUIRED>
+    			<!ELEMENT indice_revista (seccion_revista+)>
+    				<!ELEMENT seccion_revista (contenido_revista)>
+					
+    				<!ATTLIST seccion_revista titulo CDATA #REQUIRED>
+    				<!ATTLIST seccion_revista numeropaginas CDATA #REQUIRED>
+    				
+    					<!ELEMENT contenido_revista (#PCDATA)>
+    					<!ATTLIST contenido_revista informacion CDATA #REQUIRED>
