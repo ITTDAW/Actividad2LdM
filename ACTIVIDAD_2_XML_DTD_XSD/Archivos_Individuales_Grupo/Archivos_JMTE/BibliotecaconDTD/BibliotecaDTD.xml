@@ -21,7 +21,7 @@ En el caso de las revistas empieza por la letra “R”.
 <biblioteca nombre="Biblioteca Pública Madrid">
 	
     
- 
+<libros>
 <!--Los libros a su vez son clasificados en novela, infantil o didáctico. Cada libro contiene un atributo identificativo de su clase denominado tipo_clase. Dentro de cada libro se tiene un título, varios capítulos con el título en su interior, un índice y una sinopsis. Tanto en libro como en capítulo existe un atributo que contiene el número de páginas del libro o del capítulo, según corresponda. Cada capítulo contiene un elemento denominado contenido, en el que se tiene un atributo con el enlace a la información.-->
 
    
@@ -67,7 +67,7 @@ En el caso de las revistas empieza por la letra “R”.
         </libro>
 
 
-         <libro id="L0001" tipo_clase="Infantil">
+         <libro id="L0002" tipo_clase="Infantil">
 
             <nombre_libro>Sapo y sepo, inseparables</nombre_libro>
             <autor>Arnold Lobel</autor>
@@ -105,7 +105,7 @@ En el caso de las revistas empieza por la letra “R”.
 
         </libro>
 
-         <libro  id="L0001" tipo_clase="Didáctico">
+         <libro  id="L0003" tipo_clase="Didáctico">
 
             <nombre_libro>Aprender a desarrollar con JavaScript</nombre_libro>
             <autor>Christian VIGOUROUX</autor>
@@ -146,6 +146,9 @@ En el caso de las revistas empieza por la letra “R”.
         </libro>
 
    
+</libros>
+
+<periodicos>
 
 <!--Los periódicos se clasifican en nacionales e internacionales. Cada periódico contiene el atributo tipo_clase identificativo de la clase a la que pertenece y un atributo que incluye la fecha de publicación.
 -->
@@ -244,7 +247,7 @@ En el caso de las revistas empieza por la letra “R”.
         </periodico>
 
 
-        <periodico  id="P0001" tipo_clase="Internacional">
+        <periodico  id="P0002" tipo_clase="Internacional">
         	<nombre_periodico añopublicacion="1925">The Times</nombre_periodico>
             
             <!--Dentro de los periódicos tenemos secciones y un índice. Cada sección debe contener un atributo identificativo del tipo de sección, que puede ser: económica, opinión, deportes, nacional o internacional. Las secciones se dividen en artículos, en donde se define en un atributo el autor. Finalmente, el contenido será el último elemento del árbol, que necesita un atributo que referencie a la información.-->
@@ -332,10 +335,10 @@ En el caso de las revistas empieza por la letra “R”.
             
         </periodico>
             
-           
+</periodicos>           
    
 
-
+<revistas>
     <!--Las revistas a su vez son clasificadas en: informática, corazón, coches, investigación y otras. Cada revista tiene el atributo tipo_clase identificativo de la clase a la que pertenece. -->
 
   
@@ -369,7 +372,7 @@ En el caso de las revistas empieza por la letra “R”.
 
     	</revista>
 
-    	<revista  id="R0001" tipo_clase="corazón">
+    	<revista  id="R0002" tipo_clase="corazón">
 
     		<titulo_revista>Hola</titulo_revista>	
 
@@ -400,7 +403,7 @@ En el caso de las revistas empieza por la letra “R”.
     	
     	</revista>
 
-    	<revista id="R0001" tipo_clase="coches">
+    	<revista id="R0003" tipo_clase="coches">
     		<titulo_revista>Automocion</titulo_revista>	
     		<numerorevista numeropaginas="280">138</numerorevista>
     		
@@ -428,7 +431,7 @@ En el caso de las revistas empieza por la letra “R”.
     	
     	</revista>
 
-    	<revista id="R0001" tipo_clase="investigacion">
+    	<revista id="R0004" tipo_clase="investigacion">
     		<titulo_revista>Medicina Actual</titulo_revista>	
     		<numerorevista numeropaginas="190">138</numerorevista>
     		
@@ -455,7 +458,7 @@ En el caso de las revistas empieza por la letra “R”.
     	
     	</revista>
 
-    	<revista id="R0001" tipo_clase="otras">
+    	<revista id="R0005" tipo_clase="otras">
     		<titulo_revista>La revista de los pequeños</titulo_revista>	
     		<numerorevista numeropaginas="100">138</numerorevista>
     		
@@ -483,7 +486,7 @@ En el caso de las revistas empieza por la letra “R”.
     	
     	</revista>
 
-
+</revistas>
 
     
 

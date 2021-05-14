@@ -20,469 +20,476 @@ xsi:noNamespaceSchemaLocation= "XSDBiblioteca.xsd"> <!--Aqui le empotramos el xs
 	
     
  
-<!--Los libros a su vez son clasificados en novela, infantil o didáctico. Cada libro contiene un atributo identificativo de su clase denominado tipo_clase. Dentro de cada libro se tiene un título, varios capítulos con el título en su interior, un índice y una sinopsis. Tanto en libro como en capítulo existe un atributo que contiene el número de páginas del libro o del capítulo, según corresponda. Cada capítulo contiene un elemento denominado contenido, en el que se tiene un atributo con el enlace a la información.-->
 
-   
-        <libro id="L0001" tipo_clase="Novela">
-
-            <nombre_libro>La Mente Criminal</nombre_libro>
-            <autor>Vicente Garrido</autor>
-            <paginas_libro numero="320"/>
-            <indice>
-                
-                    <capitulo numero="1">
-                        <titulo>El mundo del asesino en serie</titulo>
-                        <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="20"/>
-                    </capitulo>
-                    <capitulo numero="2">
-                        <titulo>Jack el Destripador y el nacimiento de la ciencia forense</titulo>
-                        <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="20"/>
-                    </capitulo>
-                    
-                    <capitulo numero="3">
-                        <titulo>La huella del crimen</titulo>
-                        <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="20"/>
-                    </capitulo>
-
-                    <capitulo numero="1">
-                        <titulo>El monstruo de la Machala</titulo>
-                       <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="20"/>
-                    </capitulo>
-
-                
-                
-            </indice>
-            <sinopsis>
-                ¿Cómo actúan los asesinos en serie? ¿Para qué sirve el análisis del perfil genético (ADN)? ¿Qué es el modus operandi y la firma de un asesino? ¿Cuáles son los métodos de investigación de la Policía? 
-				Los interesados en las ciencias sociales y criminológicas y los estudiantes y profesionales de las diferentes policías encontrarán en La mente criminal nociones esenciales de criminología forense aplicadas a casos criminales que conmovieron a una sociedad entera e incluso al mundo. Al analizar la forma de actuar y de pensar de los asesinos seriales su autor, Vicente Garrido, proporciona al lector unos conocimientos sobre cómo éstos crean su propia realidad y las formas peculiares en que llevan a la práctica sus terribles fantasías. De Jack el Destripador a Tony King, pasando por criminales notables de España (Gilberto Chamba, "el Monstruo de Machala", el Asesino de la Baraja) y del mundo (Richard Ramírez, Ted Bundy), este libro describe de modo riguroso pero fácilmente comprensible el mundo de los asesinos en serie, al tiempo que introduce apasionantes historias de revelación de las ciencias forenses.
-            </sinopsis>
-
-
-        </libro>
-
-
-         <libro id="L0001" tipo_clase="Infantil">
-
-            <nombre_libro>Sapo y sepo, inseparables</nombre_libro>
-            <autor>Arnold Lobel</autor>
-            <paginas_libro numero="220"/>
-            <indice>
-               
-                    <capitulo numero="1">
-                        <titulo>Mañana</titulo>
-                        <contenido_capitulo enlace="www.contenido2.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="30"/>
-                    </capitulo>
-                    <capitulo numero="2">
-                        <titulo>La Cometa</titulo>
-                        <contenido_capitulo enlace="www.contenido2.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="30"/>
-                    </capitulo>
-                    <capitulo numero="3">
-                        <titulo>Escalofrios</titulo>
-                       <contenido_capitulo enlace="www.contenido2.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="30"/>
-                    </capitulo>
-                    <capitulo numero="1">
-                        <titulo>El sombrero</titulo>
-                       <contenido_capitulo enlace="www.contenido2.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="30"/>
-                    </capitulo>
-
-               
-                
-            </indice>
-            <sinopsis>
-                A Sapo y Sepo se les ocurren ideas descabelladas: pensar en cosas grandes, muy grandes para que crezca la cabeza y así a Sepo le quede bien un sombrero nuevo, o elevar una cometa a voces.. Eso sí, ocurra lo que ocurra, la amistad entre ambos es inquebrantable.
-            </sinopsis>
-
-
-        </libro>
-
-         <libro  id="L0001" tipo_clase="Didáctico">
-
-            <nombre_libro>Aprender a desarrollar con JavaScript</nombre_libro>
-            <autor>Christian VIGOUROUX</autor>
-           <paginas_libro numero="820"/>
-            <indice>
-                
-                    <capitulo numero="1">
-                        <titulo>Presentación del lenguaje JavaScript</titulo>
-                        <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="50"/>
-                    </capitulo>
-                    <capitulo numero="2">
-                        <titulo>Desarrollo a partir de algoritmos</titulo>
-                        <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="60"/>
-                    </capitulo>
-                    <capitulo numero="3">
-                        <titulo>Conceptos principales del lenguaje JavaScript</titulo>
-                        <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="40"/>
-                    </capitulo>
-                    <capitulo numero="1">
-                        <titulo>Procesamiento condicionado</titulo>
-                        <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
-                        <paginas_capitulo numero="30"/>
-                    </capitulo>
-
-              
-                
-            </indice>
-            <sinopsis>
-                Este libro, que trata sobre el aprendizaje en el desarrollo con JavaScript, se dirige a los lectores que deseen adquirir las habilidades necesarias para dominar esta área, fundamental en los desarrollos Web.
-                De hecho, incluso aunque existen soluciones y aplicaciones que permiten esquivar el conocimiento del lenguaje JavaScript, su dominio es un objetivo esencial para adquirir una verdadera destreza en el dominio de las tecnologías de la Web 2.0.
-
-            </sinopsis>
-
-
-        </libro>
-
-   
-
-<!--Los periódicos se clasifican en nacionales e internacionales. Cada periódico contiene el atributo tipo_clase identificativo de la clase a la que pertenece y un atributo que incluye la fecha de publicación.
--->
-
-   
-
-        <periodico  id="P0001" tipo_clase="Nacional">
-            <nombre_periodico añopublicacion="1930">El País</nombre_periodico>
-            
-            <!--Dentro de los periódicos tenemos secciones y un índice. Cada sección debe contener un atributo identificativo del tipo de sección, que puede ser: económica, opinión, deportes, nacional o internacional. Las secciones se dividen en artículos, en donde se define en un atributo el autor. Finalmente, el contenido será el último elemento del árbol, que necesita un atributo que referencie a la información.-->
-
-             
-            <indice_periodico>
-
-                <seccion_periodico tipo_seccion="economica">
-                    <articulo nombre_autor="Pedro Antonio Lopez">
-                    	<nombre_articulo>La gran depresion del 1929</nombre_articulo>
-                    	
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-
-                    <articulo nombre_autor="Pedro Antonio Lopez">
-                    	<nombre_articulo>Fallo en la economia</nombre_articulo>
-                    
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-                    
-                </seccion_periodico>
-               
-                <seccion_periodico tipo_seccion="opinion">
-                    
-                    <articulo nombre_autor="Ricardo Lopez">
-                    	
-                    	<nombre_articulo> La moda de los años 2000</nombre_articulo>
-                    	
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                	</articulo>
-
-                    <articulo nombre_autor="Ricardo Lopez">
-                    	<nombre_articulo>Vuelven los pantalones</nombre_articulo>
-                    	
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-
-                    </articulo>
-
-                    
-                </seccion_periodico>
-
-                <seccion_periodico tipo_seccion="deportes">
-                    <articulo nombre_autor="Monica Lopez">
-                    	<nombre_articulo>Al segundo palo</nombre_articulo>
-                    	
-                     	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-
-                    <articulo nombre_autor="Monica Martinez">
-                     	<nombre_articulo>Tiro al plato</nombre_articulo>
-                    
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-                    
-                </seccion_periodico>
-
-                <seccion_periodico tipo_seccion="nacional">
-                    <articulo  nombre_autor="Mercedes Gimeno">
-                    	<nombre_articulo>El fin del toque de queda</nombre_articulo>
-                    	
-                     	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                     </articulo>
-
-                     <articulo nombre_autor="Pedro Antonio Lopez">
-                     	<nombre_articulo>Reparto de Vacunas</nombre_articulo>
-                    	
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-                    
-                </seccion_periodico>
-               
-                <seccion_periodico tipo_seccion="internacional">
-                    <articulo nombre_autor="Antonio Lopez">
-                    	<nombre_articulo>La variante india</nombre_articulo>
-                    
-                     	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-
-                    <articulo nombre_autor="Pedro Antonio Lopez">
-                     	<nombre_articulo>La historia del Brexit</nombre_articulo>
-                    	
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-                    
-                </seccion_periodico>
-
-             </indice_periodico>
-            
-        </periodico>
-
-
-        <periodico  id="P0001" tipo_clase="Internacional">
-        	<nombre_periodico añopublicacion="1925">The Times</nombre_periodico>
-            
-            <!--Dentro de los periódicos tenemos secciones y un índice. Cada sección debe contener un atributo identificativo del tipo de sección, que puede ser: económica, opinión, deportes, nacional o internacional. Las secciones se dividen en artículos, en donde se define en un atributo el autor. Finalmente, el contenido será el último elemento del árbol, que necesita un atributo que referencie a la información.-->
-
-             <indice_periodico>
-                <seccion_periodico tipo_seccion="economica">
-                    <articulo nombre_autor="Chris Smyth">
-                    	<nombre_articulo>Labour unites to criticise Keir Starmer after reshuffle</nombre_articulo>
-                    	
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-
-                    <articulo nombre_autor="Chris Smyth">
-                    	<nombre_articulo>Labour unites to criticise Keir Starmer after reshuffle</nombre_articulo>
-                    
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-                    
-                </seccion_periodico>
-                <seccion_periodico tipo_seccion="opinion">
-                    <articulo nombre_autor="John Reynolds">
-                    	
-                    	<nombre_articulo> Scarlett Johansson calls for step back from ‘sexist’ Golden Globes body</nombre_articulo>
-                    	
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-
-                	</articulo>
-
-                    <articulo nombre_autor="John Reynolds">
-                    	<nombre_articulo>Scarlett Johansson calls for step back from ‘sexist’ Golden Globes body</nombre_articulo>
-                    	
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-
-                    </articulo>
-
-                    
-                </seccion_periodico>
-
-                <seccion_periodico tipo_seccion="deportes">
-                    <articulo nombre_autor="Alex Low">
-                    	<nombre_articulo>All-English Champions League final set to move from Istanbul to Wembley</nombre_articulo>
-                    	
-                     	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-
-                    <articulo nombre_autor="Alex Low">
-                     	<nombre_articulo>All-English Champions League final set to move from Istanbul to Wembley</nombre_articulo>
-                    	
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-                    
-                </seccion_periodico>
-
-                <seccion_periodico tipo_seccion="nacional">
-                    <articulo nombre_autor="Charles Bremner">
-                    	<nombre_articulo>England want 40,000 fans at Twickenham for summer Tests with US Eagles and Canada</nombre_articulo>
-                    	
-                     	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                     </articulo>
-
-                     <articulo nombre_autor="Charles Bremner">
-                     	<nombre_articulo>England want 40,000 fans at Twickenham for summer Tests with US Eagles and Canada</nombre_articulo>
-                    	
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-                    
-                </seccion_periodico>
-               
-                <seccion_periodico tipo_seccion="internacional">
-                    <articulo nombre_autor="Charles Bremner">
-                    	<nombre_articulo>Civil war is brewing warn serving soldiers in open letter to Macron</nombre_articulo>
-                    	
-                     	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-
-                    <articulo nombre_autor="Charles Bremner">
-                    	<nombre_articulo>Civil war is brewing warn serving soldiers in open letter to MacronLa historia del Brexit</nombre_articulo>
-                    
-                    	<contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
-                    </articulo>
-                    
-                </seccion_periodico>
-
-             </indice_periodico>
-            
-        </periodico>
-            
-           
-   
-
-
-    <!--Las revistas a su vez son clasificadas en: informática, corazón, coches, investigación y otras. Cada revista tiene el atributo tipo_clase identificativo de la clase a la que pertenece. -->
-
-  
-
-    	<revista  id="R0001" tipo_clase="informatica">
-    	<!--Dentro de cada revista tenemos el título, el número de la revista, un índice de contenido y las secciones. En cada sección y en la revista se tiene un atributo que contiene el número de páginas. Además, en cada sección se tiene la parte denominada contenido, en la que se tiene un atributo con un enlace a la información. De igual forma que en los anteriores, la última etiqueta del árbol debe ser el contenido con un atributo que referencia al contenido.-->
-    		<titulo_revista>Computer Hoy</titulo_revista>	
-    		<numerorevista numeropaginas="210">138</numerorevista>
-    		
-    		<indice_revista>
-    			<seccion_revista titulo="Microprocesadores" numeropaginas="20">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			<seccion_revista titulo="Placa Base" numeropaginas="20">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			<seccion_revista titulo="Perifericos" numeropaginas="20">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			
-    		</indice_revista>
-
-    	</revista>
-
-    	<revista  id="R0001" tipo_clase="corazón">
-
-    		<titulo_revista>Hola</titulo_revista>	
-
-    		<numerorevista numeropaginas="130">138</numerorevista>
-    		
-    		<indice_revista>
-    			<seccion_revista titulo="La casa de Paquirrin" numeropaginas="20">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			<seccion_revista titulo="El dia a dia del Conde Lequio" numeropaginas="30">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			<seccion_revista titulo="Isabel Pantoja de nuevo a la carcel" numeropaginas="58">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			
-    		</indice_revista>
-
-    	
-    	</revista>
-
-    	<revista id="R0001" tipo_clase="coches">
-    		<titulo_revista>Automocion</titulo_revista>	
-    		<numerorevista numeropaginas="280">138</numerorevista>
-    		
-    		<indice_revista>
-    			<seccion_revista titulo="Coches Antiguos" numeropaginas="10">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			<seccion_revista titulo="Aprende a vender tu coche" numeropaginas="10">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			<seccion_revista titulo="Compra el coche correcto" numeropaginas="15">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			
-    		</indice_revista>
-    	
-    	</revista>
-
-    	<revista id="R0001" tipo_clase="investigacion">
-    		<titulo_revista>Medicina Actual</titulo_revista>	
-    		<numerorevista numeropaginas="190">138</numerorevista>
-    		
-    		<indice_revista>
-    			<seccion_revista titulo="El Vademecum actual" numeropaginas="10">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			<seccion_revista titulo="Medicamentos caseros" numeropaginas="12">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			<seccion_revista titulo="La Botica" numeropaginas="34">
-    			
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-    				
-    			</seccion_revista>
-    			
-    		</indice_revista>
-    	
-    	</revista>
-
-    	<revista id="R0001" tipo_clase="otras">
-    		<titulo_revista>La revista de los pequeños</titulo_revista>	
-    		<numerorevista numeropaginas="100">138</numerorevista>
-    		
-    		<indice_revista>
-    			<seccion_revista titulo="Dora la exploradora" numeropaginas="12">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			<seccion_revista titulo="Gana un viaje a Eurodisney" numeropaginas="23">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			<seccion_revista titulo="El juego del parchis" numeropaginas="34">
-    				
-    				<contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
-
-    				
-    			</seccion_revista>
-    			
-    		</indice_revista>
-    	
-    	</revista>
-
-
-
+	
     
-
-</biblioteca>
+    <libros>
+    <!--Los libros a su vez son clasificados en novela, infantil o didáctico. Cada libro contiene un atributo identificativo de su clase denominado tipo_clase. Dentro de cada libro se tiene un título, varios capítulos con el título en su interior, un índice y una sinopsis. Tanto en libro como en capítulo existe un atributo que contiene el número de páginas del libro o del capítulo, según corresponda. Cada capítulo contiene un elemento denominado contenido, en el que se tiene un atributo con el enlace a la información.-->
+    
+       
+            <libro id="L0001" tipo_clase="Novela">
+    
+                <nombre_libro>La Mente Criminal</nombre_libro>
+                <autor>Vicente Garrido</autor>
+                <paginas_libro numero="320"/>
+                <indice>
+                    
+                        <capitulo numero="1">
+                            <titulo>El mundo del asesino en serie</titulo>
+                            <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="20"/>
+                        </capitulo>
+                        <capitulo numero="2">
+                            <titulo>Jack el Destripador y el nacimiento de la ciencia forense</titulo>
+                            <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="20"/>
+                        </capitulo>
+                        
+                        <capitulo numero="3">
+                            <titulo>La huella del crimen</titulo>
+                            <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="20"/>
+                        </capitulo>
+    
+                        <capitulo numero="1">
+                            <titulo>El monstruo de la Machala</titulo>
+                           <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="20"/>
+                        </capitulo>
+    
+                    
+                    
+                </indice>
+                <sinopsis>
+                    ¿Cómo actúan los asesinos en serie? ¿Para qué sirve el análisis del perfil genético (ADN)? ¿Qué es el modus operandi y la firma de un asesino? ¿Cuáles son los métodos de investigación de la Policía? 
+                    Los interesados en las ciencias sociales y criminológicas y los estudiantes y profesionales de las diferentes policías encontrarán en La mente criminal nociones esenciales de criminología forense aplicadas a casos criminales que conmovieron a una sociedad entera e incluso al mundo. Al analizar la forma de actuar y de pensar de los asesinos seriales su autor, Vicente Garrido, proporciona al lector unos conocimientos sobre cómo éstos crean su propia realidad y las formas peculiares en que llevan a la práctica sus terribles fantasías. De Jack el Destripador a Tony King, pasando por criminales notables de España (Gilberto Chamba, "el Monstruo de Machala", el Asesino de la Baraja) y del mundo (Richard Ramírez, Ted Bundy), este libro describe de modo riguroso pero fácilmente comprensible el mundo de los asesinos en serie, al tiempo que introduce apasionantes historias de revelación de las ciencias forenses.
+                </sinopsis>
+    
+    
+            </libro>
+    
+    
+             <libro id="L0002" tipo_clase="Infantil">
+    
+                <nombre_libro>Sapo y sepo, inseparables</nombre_libro>
+                <autor>Arnold Lobel</autor>
+                <paginas_libro numero="220"/>
+                <indice>
+                   
+                        <capitulo numero="1">
+                            <titulo>Mañana</titulo>
+                            <contenido_capitulo enlace="www.contenido2.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="30"/>
+                        </capitulo>
+                        <capitulo numero="2">
+                            <titulo>La Cometa</titulo>
+                            <contenido_capitulo enlace="www.contenido2.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="30"/>
+                        </capitulo>
+                        <capitulo numero="3">
+                            <titulo>Escalofrios</titulo>
+                           <contenido_capitulo enlace="www.contenido2.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="30"/>
+                        </capitulo>
+                        <capitulo numero="1">
+                            <titulo>El sombrero</titulo>
+                           <contenido_capitulo enlace="www.contenido2.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="30"/>
+                        </capitulo>
+    
+                   
+                    
+                </indice>
+                <sinopsis>
+                    A Sapo y Sepo se les ocurren ideas descabelladas: pensar en cosas grandes, muy grandes para que crezca la cabeza y así a Sepo le quede bien un sombrero nuevo, o elevar una cometa a voces.. Eso sí, ocurra lo que ocurra, la amistad entre ambos es inquebrantable.
+                </sinopsis>
+    
+    
+            </libro>
+    
+             <libro  id="L0003" tipo_clase="Didáctico">
+    
+                <nombre_libro>Aprender a desarrollar con JavaScript</nombre_libro>
+                <autor>Christian VIGOUROUX</autor>
+               <paginas_libro numero="820"/>
+                <indice>
+                    
+                        <capitulo numero="1">
+                            <titulo>Presentación del lenguaje JavaScript</titulo>
+                            <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="50"/>
+                        </capitulo>
+                        <capitulo numero="2">
+                            <titulo>Desarrollo a partir de algoritmos</titulo>
+                            <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="60"/>
+                        </capitulo>
+                        <capitulo numero="3">
+                            <titulo>Conceptos principales del lenguaje JavaScript</titulo>
+                            <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="40"/>
+                        </capitulo>
+                        <capitulo numero="1">
+                            <titulo>Procesamiento condicionado</titulo>
+                            <contenido_capitulo enlace="www.contenido1.com"> Auctor commodo vivamus molestie suscipit tincidunt proin cum facilisi enim euismod tempor, facilisis erat blandit aptent sapien libero nec hac semper. Dictum tempus dis ultrices conubia feugiat nunc himenaeos dictumst quis, justo potenti mi lectus parturient porta fusce ad luctus, facilisi elementum vel magnis fames aptent inceptos leo. Dignissim suscipit felis nec tristique rhoncus magnis facilisis volutpat proin, nisi quis leo eu cursus accumsan enim lobortis pretium erat, nisl montes neque curabitur lacinia justo inceptos urna.</contenido_capitulo>
+                            <paginas_capitulo numero="30"/>
+                        </capitulo>
+    
+                  
+                    
+                </indice>
+                <sinopsis>
+                    Este libro, que trata sobre el aprendizaje en el desarrollo con JavaScript, se dirige a los lectores que deseen adquirir las habilidades necesarias para dominar esta área, fundamental en los desarrollos Web.
+                    De hecho, incluso aunque existen soluciones y aplicaciones que permiten esquivar el conocimiento del lenguaje JavaScript, su dominio es un objetivo esencial para adquirir una verdadera destreza en el dominio de las tecnologías de la Web 2.0.
+    
+                </sinopsis>
+    
+    
+            </libro>
+    
+       
+    </libros>
+    
+    <periodicos>
+    
+    <!--Los periódicos se clasifican en nacionales e internacionales. Cada periódico contiene el atributo tipo_clase identificativo de la clase a la que pertenece y un atributo que incluye la fecha de publicación.
+    -->
+    
+       
+    
+            <periodico  id="P0001" tipo_clase="Nacional">
+                <nombre_periodico añopublicacion="1930">El País</nombre_periodico>
+                
+                <!--Dentro de los periódicos tenemos secciones y un índice. Cada sección debe contener un atributo identificativo del tipo de sección, que puede ser: económica, opinión, deportes, nacional o internacional. Las secciones se dividen en artículos, en donde se define en un atributo el autor. Finalmente, el contenido será el último elemento del árbol, que necesita un atributo que referencie a la información.-->
+    
+                 
+                <indice_periodico>
+    
+                    <seccion_periodico tipo_seccion="economica">
+                        <articulo nombre_autor="Pedro Antonio Lopez">
+                            <nombre_articulo>La gran depresion del 1929</nombre_articulo>
+                            
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+    
+                        <articulo nombre_autor="Pedro Antonio Lopez">
+                            <nombre_articulo>Fallo en la economia</nombre_articulo>
+                        
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+                        
+                    </seccion_periodico>
+                   
+                    <seccion_periodico tipo_seccion="opinion">
+                        
+                        <articulo nombre_autor="Ricardo Lopez">
+                            
+                            <nombre_articulo> La moda de los años 2000</nombre_articulo>
+                            
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+    
+                        <articulo nombre_autor="Ricardo Lopez">
+                            <nombre_articulo>Vuelven los pantalones</nombre_articulo>
+                            
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+    
+                        </articulo>
+    
+                        
+                    </seccion_periodico>
+    
+                    <seccion_periodico tipo_seccion="deportes">
+                        <articulo nombre_autor="Monica Lopez">
+                            <nombre_articulo>Al segundo palo</nombre_articulo>
+                            
+                             <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+    
+                        <articulo nombre_autor="Monica Martinez">
+                             <nombre_articulo>Tiro al plato</nombre_articulo>
+                        
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+                        
+                    </seccion_periodico>
+    
+                    <seccion_periodico tipo_seccion="nacional">
+                        <articulo  nombre_autor="Mercedes Gimeno">
+                            <nombre_articulo>El fin del toque de queda</nombre_articulo>
+                            
+                             <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                         </articulo>
+    
+                         <articulo nombre_autor="Pedro Antonio Lopez">
+                             <nombre_articulo>Reparto de Vacunas</nombre_articulo>
+                            
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+                        
+                    </seccion_periodico>
+                   
+                    <seccion_periodico tipo_seccion="internacional">
+                        <articulo nombre_autor="Antonio Lopez">
+                            <nombre_articulo>La variante india</nombre_articulo>
+                        
+                             <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+    
+                        <articulo nombre_autor="Pedro Antonio Lopez">
+                             <nombre_articulo>La historia del Brexit</nombre_articulo>
+                            
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+                        
+                    </seccion_periodico>
+    
+                 </indice_periodico>
+                
+            </periodico>
+    
+    
+            <periodico  id="P0002" tipo_clase="Internacional">
+                <nombre_periodico añopublicacion="1925">The Times</nombre_periodico>
+                
+                <!--Dentro de los periódicos tenemos secciones y un índice. Cada sección debe contener un atributo identificativo del tipo de sección, que puede ser: económica, opinión, deportes, nacional o internacional. Las secciones se dividen en artículos, en donde se define en un atributo el autor. Finalmente, el contenido será el último elemento del árbol, que necesita un atributo que referencie a la información.-->
+    
+                 <indice_periodico>
+                    <seccion_periodico tipo_seccion="economica">
+                        <articulo nombre_autor="Chris Smyth">
+                            <nombre_articulo>Labour unites to criticise Keir Starmer after reshuffle</nombre_articulo>
+                            
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+    
+                        <articulo nombre_autor="Chris Smyth">
+                            <nombre_articulo>Labour unites to criticise Keir Starmer after reshuffle</nombre_articulo>
+                        
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+                        
+                    </seccion_periodico>
+                    <seccion_periodico tipo_seccion="opinion">
+                        <articulo nombre_autor="John Reynolds">
+                            
+                            <nombre_articulo> Scarlett Johansson calls for step back from ‘sexist’ Golden Globes body</nombre_articulo>
+                            
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+    
+                        </articulo>
+    
+                        <articulo nombre_autor="John Reynolds">
+                            <nombre_articulo>Scarlett Johansson calls for step back from ‘sexist’ Golden Globes body</nombre_articulo>
+                            
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+    
+                        </articulo>
+    
+                        
+                    </seccion_periodico>
+    
+                    <seccion_periodico tipo_seccion="deportes">
+                        <articulo nombre_autor="Alex Low">
+                            <nombre_articulo>All-English Champions League final set to move from Istanbul to Wembley</nombre_articulo>
+                            
+                             <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+    
+                        <articulo nombre_autor="Alex Low">
+                             <nombre_articulo>All-English Champions League final set to move from Istanbul to Wembley</nombre_articulo>
+                            
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+                        
+                    </seccion_periodico>
+    
+                    <seccion_periodico tipo_seccion="nacional">
+                        <articulo nombre_autor="Charles Bremner">
+                            <nombre_articulo>England want 40,000 fans at Twickenham for summer Tests with US Eagles and Canada</nombre_articulo>
+                            
+                             <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                         </articulo>
+    
+                         <articulo nombre_autor="Charles Bremner">
+                             <nombre_articulo>England want 40,000 fans at Twickenham for summer Tests with US Eagles and Canada</nombre_articulo>
+                            
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+                        
+                    </seccion_periodico>
+                   
+                    <seccion_periodico tipo_seccion="internacional">
+                        <articulo nombre_autor="Charles Bremner">
+                            <nombre_articulo>Civil war is brewing warn serving soldiers in open letter to Macron</nombre_articulo>
+                            
+                             <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+    
+                        <articulo nombre_autor="Charles Bremner">
+                            <nombre_articulo>Civil war is brewing warn serving soldiers in open letter to MacronLa historia del Brexit</nombre_articulo>
+                        
+                            <contenido informacion="www.informacion.com">Prow scuttle parrel provost Sail ho shrouds spirits boom mizzenmast yardarm. Pinnace holystone mizzenmast quarter crow's nest nipperkin grog yardarm hempen halter furl. Swab barque interloper chantey doubloon starboard grog black jack gangway rutters. Deadlights jack lad schooner scallywag dance the hempen jig carouser broadside cable strike colors. Bring a spring upon her cable holystone blow the man down spanker Shiver me timbers to go on account lookout wherry doubloon chase. Belay yo-ho-ho keelhaul squiffy black spot yardarm spyglass sheet transom heave to.</contenido>
+                        </articulo>
+                        
+                    </seccion_periodico>
+    
+                 </indice_periodico>
+                
+            </periodico>
+                
+    </periodicos>           
+       
+    
+    <revistas>
+        <!--Las revistas a su vez son clasificadas en: informática, corazón, coches, investigación y otras. Cada revista tiene el atributo tipo_clase identificativo de la clase a la que pertenece. -->
+    
+      
+    
+            <revista  id="R0001" tipo_clase="informatica">
+            <!--Dentro de cada revista tenemos el título, el número de la revista, un índice de contenido y las secciones. En cada sección y en la revista se tiene un atributo que contiene el número de páginas. Además, en cada sección se tiene la parte denominada contenido, en la que se tiene un atributo con un enlace a la información. De igual forma que en los anteriores, la última etiqueta del árbol debe ser el contenido con un atributo que referencia al contenido.-->
+                <titulo_revista>Computer Hoy</titulo_revista>	
+                <numerorevista numeropaginas="210">138</numerorevista>
+                
+                <indice_revista>
+                    <seccion_revista titulo="Microprocesadores" numeropaginas="20">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    <seccion_revista titulo="Placa Base" numeropaginas="20">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    <seccion_revista titulo="Perifericos" numeropaginas="20">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    
+                </indice_revista>
+    
+            </revista>
+    
+            <revista  id="R0002" tipo_clase="corazón">
+    
+                <titulo_revista>Hola</titulo_revista>	
+    
+                <numerorevista numeropaginas="130">138</numerorevista>
+                
+                <indice_revista>
+                    <seccion_revista titulo="La casa de Paquirrin" numeropaginas="20">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    <seccion_revista titulo="El dia a dia del Conde Lequio" numeropaginas="30">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    <seccion_revista titulo="Isabel Pantoja de nuevo a la carcel" numeropaginas="58">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    
+                </indice_revista>
+    
+            
+            </revista>
+    
+            <revista id="R0003" tipo_clase="coches">
+                <titulo_revista>Automocion</titulo_revista>	
+                <numerorevista numeropaginas="280">138</numerorevista>
+                
+                <indice_revista>
+                    <seccion_revista titulo="Coches Antiguos" numeropaginas="10">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    <seccion_revista titulo="Aprende a vender tu coche" numeropaginas="10">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    <seccion_revista titulo="Compra el coche correcto" numeropaginas="15">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    
+                </indice_revista>
+            
+            </revista>
+    
+            <revista id="R0004" tipo_clase="investigacion">
+                <titulo_revista>Medicina Actual</titulo_revista>	
+                <numerorevista numeropaginas="190">138</numerorevista>
+                
+                <indice_revista>
+                    <seccion_revista titulo="El Vademecum actual" numeropaginas="10">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    <seccion_revista titulo="Medicamentos caseros" numeropaginas="12">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    <seccion_revista titulo="La Botica" numeropaginas="34">
+                    
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+                        
+                    </seccion_revista>
+                    
+                </indice_revista>
+            
+            </revista>
+    
+            <revista id="R0005" tipo_clase="otras">
+                <titulo_revista>La revista de los pequeños</titulo_revista>	
+                <numerorevista numeropaginas="100">138</numerorevista>
+                
+                <indice_revista>
+                    <seccion_revista titulo="Dora la exploradora" numeropaginas="12">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    <seccion_revista titulo="Gana un viaje a Eurodisney" numeropaginas="23">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    <seccion_revista titulo="El juego del parchis" numeropaginas="34">
+                        
+                        <contenido_revista informacion="www.dimelo.com">Trysail Sail ho Corsair red ensign hulk smartly boom jib rum gangway. Case shot Shiver me timbers gangplank crack Jennys tea cup ballast Blimey lee snow crow's nest rutters. Fluke jib scourge of the seven seas boatswain schooner gaff booty Jack Tar transom spirits.</contenido_revista>
+    
+                        
+                    </seccion_revista>
+                    
+                </indice_revista>
+            
+            </revista>
+    
+    </revistas>
+    
+        
+    
+    </biblioteca>
