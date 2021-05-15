@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- New XML document created with EditiX XML Editor (http://www.editix.com) at Sat May 15 15:45:29 CEST 2021 -->
+
+<!DOCTYPE biblioteca SYSTEM "biblioteca_validador.dtd">
+<biblioteca>
+    <libros>
+        <libro tipo_clase="novela" id="L1000" pag_libro="300">
+            <titulo_libro>El lobo estepario</titulo_libro>
+            <capitulo titulo_cap="Anotaciones de Harry Haller" pag_capitulo="20"> 
+                <contenido_capitulo enlace_contenido=""></contenido_capitulo>
+            </capitulo>
+            <indice_libro>1. Introducción 2. Anotaciones de Harry Haller 3. Tractac del lobo estepario 4. Siguen las anotaciones de Harry Haller</indice_libro>
+            <sinopsis>El lobo estepario pretende iluminar la zona oscura de la condición humana a fin de poner al descubierto s carga trágica y su incierto destino</sinopsis>
+        </libro>
+        
+        <libro tipo_clase="infantil" id="L2000" pag_libro="30">
+            <titulo_libro></titulo_libro>
+            <capitulo titulo_cap="" pag_capitulo=""> 
+                <contenido_capitulo enlace_contenido=""></contenido_capitulo>
+            </capitulo>
+            <indice_libro></indice_libro>
+            <sinopsis></sinopsis>
+        </libro>
+        <libro tipo_clase="didáctico" id="L3000" pag_libro="500">
+            <titulo_libro></titulo_libro>
+            <capitulo titulo_cap="" pag_capitulo=""> 
+                <contenido_capitulo enlace_contenido=""></contenido_capitulo>
+            </capitulo>
+            <indice_libro></indice_libro>
+            <sinopsis></sinopsis>
+        </libro>
+    </libros>
+    <revistas>
+        <revista tipo_clase="informática" id="R1000" pag_revista="">
+            <titulo_revista></titulo_revista>
+            <num_revista></num_revista>
+            <indice_revista></indice_revista>
+            <seccion_revista pag_seccion="">
+                <contenido_revista enlace_contenido=""></contenido_revista>
+            </seccion_revista>
+        </revista>
+        <revista tipo_clase="corazon" id="R2000" pag_revista="">
+            <titulo_revista></titulo_revista>
+            <num_revista></num_revista>
+            <indice_revista></indice_revista>
+            <seccion_revista pag_seccion="">
+                <contenido_revista enlace_contenido=""></contenido_revista>
+            </seccion_revista>
+        </revista>
+        <revista tipo_clase="coches" id="R3000" pag_revista="">
+            <titulo_revista></titulo_revista>
+            <num_revista></num_revista>
+            <indice_revista></indice_revista>
+            <seccion_revista pag_seccion="">
+                <contenido_revista enlace_contenido=""></contenido_revista>
+            </seccion_revista>
+        </revista>
+        <revista tipo_clase="investigacion" id="R4000" pag_revista="">
+            <titulo_revista></titulo_revista>
+            <num_revista></num_revista>
+            <indice_revista></indice_revista>
+            <seccion_revista pag_seccion="">
+                <contenido_revista enlace_contenido=""></contenido_revista>
+            </seccion_revista>
+        </revista>
+        <revista tipo_clase="otras" id="R5000" pag_revista="">
+            <titulo_revista></titulo_revista>
+            <num_revista></num_revista>
+            <indice_revista></indice_revista>
+            <seccion_revista pag_seccion="">
+                <contenido_revista enlace_contenido=""></contenido_revista>
+            </seccion_revista>
+        </revista>
+    </revistas>
+
+    <periodicos>
+        <periodico tipo_clase="nacional" id="P1000" fecha_publicacion="">
+            <indice_periodico></indice_periodico>
+            <seccion_periodico tipo="economica">
+                <articulos autor=""></articulos>
+            </seccion_periodico>
+            <seccion_periodico tipo="opinion">
+                <articulos autor=""></articulos>
+            </seccion_periodico>
+            <seccion_periodico tipo="deportes">
+                <articulos autor=""></articulos>
+            </seccion_periodico>
+            <seccion_periodico tipo="nacional">
+                <articulos autor=""></articulos>
+            </seccion_periodico>
+            <seccion_periodico tipo="internacional">
+                <articulos autor=""></articulos>
+            </seccion_periodico>
+            <contenido enlace_contenido=""></contenido>
+        </periodico>
+        <periodico tipo_clase="internacional" id="P2000" fecha_publicacion="">
+            <indice_periodico></indice_periodico>
+            <seccion_periodico tipo="economica">
+                <articulos autor=""></articulos>
+            </seccion_periodico>
+            <seccion_periodico tipo="opinion">
+                <articulos autor=""></articulos>
+            </seccion_periodico>
+            <seccion_periodico tipo="deportes">
+                <articulos autor=""></articulos>
+            </seccion_periodico>
+            <seccion_periodico tipo="nacional">
+                <articulos autor=""></articulos>
+            </seccion_periodico>
+            <seccion_periodico tipo="internacional">
+                <articulos autor=""></articulos>
+            </seccion_periodico>
+            <contenido enlace_contenido=""></contenido>
+        </periodico>
+
+
+        
+    </periodicos>
+</biblioteca>
