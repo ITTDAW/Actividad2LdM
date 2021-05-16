@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="biblioteca">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="libros">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="libro" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="titulo_libro" type="xs:string" />
+                    <xs:element name="autor_libro" type="xs:string" />
+                    <xs:element name="indice_libro">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="capitulo" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="titulo_capitulo" type="xs:string" />
+                                <xs:element name="contenido_libro">
+                                  <xs:complexType>
+                                    <xs:attribute name="enlace_info" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="num" type="xs:integer" use="required" />
+                              <xs:attribute name="num_pag" type="xs:integer" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="sinopsis" type="xs:string" />
+                  </xs:sequence>
+                  <xs:attribute name="id" use="required" />
+                  <xs:attribute name="tipo_clase" use="required" />
+                  <xs:attribute name="num_pag" type="xs:integer" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="revistas">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="revista" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="titulo_revista" type="xs:string" />
+                    <xs:element name="num_revista" type="xs:string" />
+                    <xs:element name="indice_revista">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="seccion_revista" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="contenido_revista">
+                                  <xs:complexType>
+                                    <xs:attribute name="enlace_info" use="required" />
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="num" type="xs:integer" use="required">
+                                <xs:simpleType>
+                                  <xs:restriction base="xs:string">
+                                    <xs:enumeration value="1" />
+                                    <xs:enumeration value="2" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                              <xs:attribute name="num_pag" type="xs:integer" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" use="required" />
+                  <xs:attribute name="tipo_clase" use="required" />
+                  <xs:attribute name="num_pag" type="xs:integer" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="periodicos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="periodico" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="titulo" type="xs:string" />
+                    <xs:element name="indice">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="seccion" maxOccurs="unbounded">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element name="articulo" maxOccurs="unbounded">
+                                  <xs:complexType>
+                                    <xs:sequence>
+                                      <xs:element name="autor" type="xs:string" />
+                                      <xs:element name="contenido">
+                                        <xs:complexType>
+                                          <xs:attribute name="enlace_info" use="required" fixed="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17" />
+                                        </xs:complexType>
+                                      </xs:element>
+                                    </xs:sequence>
+                                    <xs:attribute name="num" type="xs:integer" use="required">
+                                      <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                          <xs:enumeration value="1" />
+                                          <xs:enumeration value="2" />
+                                        </xs:restriction>
+                                      </xs:simpleType>
+                                    </xs:attribute>
+                                    <xs:attribute name="num_pag" type="xs:integer" use="required">
+                                      <xs:simpleType>
+                                        <xs:restriction base="xs:string">
+                                          <xs:enumeration value="1" />
+                                          <xs:enumeration value="2" />
+                                        </xs:restriction>
+                                      </xs:simpleType>
+                                    </xs:attribute>
+                                  </xs:complexType>
+                                </xs:element>
+                              </xs:sequence>
+                              <xs:attribute name="num" type="xs:integer" use="required" />
+                              <xs:attribute name="num_pag" type="xs:integer" use="required">
+                                <xs:simpleType>
+                                  <xs:restriction base="xs:string">
+                                    <xs:enumeration value="10" />
+                                    <xs:enumeration value="13" />
+                                    <xs:enumeration value="8" />
+                                  </xs:restriction>
+                                </xs:simpleType>
+                              </xs:attribute>
+                              <xs:attribute name="tipo_seccion" use="required" />
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="id" use="required" />
+                  <xs:attribute name="tipo_clase" use="required" />
+                  <xs:attribute name="num_pag" type="xs:integer" use="required" />
+                  <xs:attribute name="fecha_publicacion" use="required" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="nombre" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
