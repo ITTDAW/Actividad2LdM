@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> 
+<!DOCTYPE biblioteca SYSTEM "biblioteca.dtd">
+<biblioteca  nombre= "eBiblio Madrid">
+    <!--Estructuramos el catálogo en libros, revistas y periódicos-->
+    <libros>
+
+        <!--Los libros a su vez son clasificados en novela, infantil o didáctico. Cada libro contiene un atributo identificativo de su clase denominado tipo_clase.-->
+        <libro id="L0001" tipo_clase="Novela" num_pag="120">
+            <titulo>Aquitania</titulo>
+            <autor>Eva García Sáenz de Urturi</autor>
+            <indice>
+                <capitulo num="1" num_pag="25" >
+                    <titulo_capitulo>"La muerte azul"</titulo_capitulo>
+                    <!--Cada capítulo contiene un elemento denominado contenido, en el que se tiene un atributo con el enlace a la información.-->
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/5fcfb81d6af9f8028931014b"></contenido>
+                </capitulo>
+                <capitulo num="2" num_pag="30" >
+                    <titulo_capitulo>"La ciudad infinita"</titulo_capitulo>
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/5fcfb81d6af9f8028931014b"></contenido>
+                </capitulo>
+            </indice> 
+            <sinopsis>
+                Un cautivador thriller histórico que atraviesa un siglo repleto de venganzas y batallas. Un turbador misterio en torno atres vidas que forjarán lo que más tarde se llamará Europa.
+            </sinopsis>
+        </libro>
+
+        <libro id="L0002" tipo_clase="Infantil" num_pag="100">
+            <titulo>¿De qué color es?</titulo>
+            <autor>Gottlieb Suzanne</autor>
+            <indice>
+                <capitulo num="1" num_pag="3" >
+                    <titulo_capitulo>"Colores en la naturaleza"</titulo_capitulo>
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/5fcfb0dc6af9f8028930683c"></contenido>
+                </capitulo>
+                <capitulo num="2" num_pag="5" >
+                    <titulo_capitulo>"Los azules"</titulo_capitulo>
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/5fcfb0dc6af9f8028930683c"></contenido>
+                </capitulo>
+            </indice> 
+            <sinopsis>
+                En ¿De qué color es? el pequeño Jonny descubre el significado de los colores mientras explora el paisaje que le rodea. Jonny moja los pies en un arroyo azul, recoge flores de color violeta, excava la tierra marrón y encuentra una gran calabaza de color naranja. Finalmente el sol amarillo y la noche negra le muestran cuál es el momento para despertarse y para ir a dormir.
+            </sinopsis>
+        </libro>
+
+        <libro id="L0003" tipo_clase="Didáctico" num_pag="90">
+            <titulo>El último alquimista en París</titulo>
+            <autor>Lars Öhrström</autor>
+            <indice>
+                <capitulo num="1" num_pag="30" >
+                    <titulo_capitulo>"Mr Khama viene a cenar"</titulo_capitulo>
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/5fcfb1966af9f802893077e3"></contenido>
+                </capitulo>
+                <capitulo num="2" num_pag="26" >
+                    <titulo_capitulo>"Desde Bitterfeld con amor"</titulo_capitulo>
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/5fcfb1966af9f802893077e3"></contenido>
+                </capitulo>
+            </indice> 
+            <sinopsis>
+                Este es un libro sobre el descubrimiento y el desastre, la guerra y la ciencia - y la relación entre los seres humanos y los elementos químicos que componen nuestro planeta. Lars Öhrström nos acerca a una gran variedad de elementos, del azufre al plomo, a través de historias de personas ordinarias y extraordinarias de todo el mundo. 
+            </sinopsis>
+        </libro>
+   
+    </libros>
+
+<!--Las revistas a su vez son clasificadas en: informática, corazón, coches, investigación y otras.-->
+
+    <revistas>
+        <revista id="R0001" tipo_clase="Informática" num_pag="60">
+            <titulo>"Computer Hoy"</titulo>
+            <num_revista>1452021</num_revista>
+            <indice>
+                <seccion num="1" num_pag="25" >
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/609dca4bc02842000180f102"></contenido>
+                </seccion>
+                <seccion num="2" num_pag="12" >
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/609dca4bc02842000180f102"></contenido>
+                </seccion>
+            </indice> 
+        </revista>
+        <revista id="R0002" tipo_clase="Corazón" num_pag="50">
+            <titulo>"Semana"</titulo>
+            <num_revista>1252021</num_revista>
+            <indice>
+                <seccion num="1" num_pag="15" >
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/609c08d650b8bd0001b5e34a"></contenido>
+                </seccion>
+                <seccion num="2" num_pag="12" >
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/609c08d650b8bd0001b5e34a"></contenido>
+                </seccion>
+            </indice> 
+        </revista>
+        <revista id="R0003" tipo_clase="Coches" num_pag="70">
+            <titulo>"Autofácil"</titulo>
+            <num_revista>152021</num_revista>
+            <indice>
+                <seccion num="1" num_pag="13" >
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/608cdf92488c920001f58b33"></contenido>
+                </seccion>
+                <seccion num="2" num_pag="11" >
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/608cdf92488c920001f58b33"></contenido>
+                </seccion>
+            </indice> 
+        </revista>
+        <revista id="R0004" tipo_clase="Investigación" num_pag="70">
+            <titulo>"National Geographic"</titulo>
+            <num_revista>2142021</num_revista>
+            <indice>
+                <seccion num="1" num_pag="13" >
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/607f786dff0e7e00016af832"></contenido>
+                </seccion>
+                <seccion num="2" num_pag="11" >
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/607f786dff0e7e00016af832"></contenido>
+                </seccion>
+            </indice> 
+        </revista>
+        <revista id="R0005" tipo_clase="Otras" num_pag="45">
+            <titulo>"Fotogramas"</titulo>
+            <num_revista>2942021</num_revista>
+            <indice>
+                <seccion num="1" num_pag="13" >
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/608a111029fb970001adb3e6"></contenido>
+                </seccion>
+                <seccion num="2" num_pag="11" >
+                    <contenido enlace_info="https://madrid.ebiblio.es/resources/608a111029fb970001adb3e6"></contenido>
+                </seccion>
+            </indice> 
+        </revista>
+
+    </revistas>
+<!--Los periódicos se clasifican en nacionales e internacionales.-->
+
+    <periodicos>
+        <periodico id="P0001" tipo_clase="Nacional" num_pag="45" fecha_publicacion="16/05/2021">
+            <titulo>"El País"</titulo>
+            <indice>
+                <seccion num="1" num_pag="13" tipo_seccion="económica">
+                    <articulo num="1" num_pag="2">
+                        <autor>Lluís Pellicer</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                    <articulo num="2" num_pag="1">
+                        <autor>Francisco Peregil</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                </seccion>
+                <seccion num="2" num_pag="10" tipo_seccion="opinión">
+                    <articulo num="1" num_pag="2">
+                        <autor>Mario Vargas Llosa</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                    <articulo num="2" num_pag="1">
+                        <autor>Elvira Lindo</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                </seccion>
+                <seccion num="3" num_pag="8" tipo_seccion="deportes">
+                    <articulo num="1" num_pag="2">
+                        <autor>Luis Villaescusa</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                    <articulo num="2" num_pag="1">
+                        <autor>Diego Torres</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                </seccion>
+                <seccion num="4" num_pag="8" tipo_seccion="nacional">
+                    <articulo num="1" num_pag="2">
+                        <autor>Pablo Ordaz</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                    <articulo num="2" num_pag="1">
+                        <autor>Natalia Junquera</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                </seccion>
+                <seccion num="5" num_pag="8" tipo_seccion="internacional">
+                    <articulo num="1" num_pag="2">
+                        <autor>Juan Carlos Sanz</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                    <articulo num="2" num_pag="1">
+                        <autor>Amanda Mars</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                </seccion>
+            </indice> 
+        </periodico>
+
+        <periodico id="P0002" tipo_clase="Internacional" num_pag="65" fecha_publicacion="16/05/2021">
+            <titulo>"The Independent"</titulo>
+            <indice>
+                <seccion num="1" num_pag="13" tipo_seccion="económica">
+                    <articulo num="1" num_pag="2">
+                        <autor>Emily Goddard</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                    <articulo num="2" num_pag="1">
+                        <autor>Ben Chapman</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                </seccion>
+                <seccion num="2" num_pag="10" tipo_seccion="opinión">
+                    <articulo num="1" num_pag="2">
+                        <autor>Rachel Shabi</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                    <articulo num="2" num_pag="1">
+                        <autor>Oli Sharpe</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                </seccion>
+                <seccion num="3" num_pag="8" tipo_seccion="deportes">
+                    <articulo num="1" num_pag="2">
+                        <autor>Ed Elliot</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                    <articulo num="2" num_pag="1">
+                        <autor>Tom Kershaw</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                </seccion>
+                <seccion num="4" num_pag="8" tipo_seccion="nacional">
+                    <articulo num="1" num_pag="2">
+                        <autor>John Rentoul</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                    <articulo num="2" num_pag="1">
+                        <autor>Sean O’Grady</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                </seccion>
+                <seccion num="5" num_pag="8" tipo_seccion="internacional">
+                    <articulo num="1" num_pag="2">
+                        <autor>Ian Jhonston</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                    <articulo num="2" num_pag="1">
+                        <autor>Alastair Jameson</autor>
+                        <contenido enlace_info="https://madrid.ebiblio.es/resources/60a0a4d6b3bcf20001019b17"></contenido>
+                    </articulo>
+                </seccion>
+            </indice> 
+        </periodico>
+    </periodicos>
+</biblioteca>
