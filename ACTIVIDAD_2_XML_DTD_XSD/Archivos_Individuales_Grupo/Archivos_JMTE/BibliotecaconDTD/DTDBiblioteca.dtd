@@ -14,7 +14,8 @@ Los libros a su vez son clasificados en novela, infantil o didáctico. Cada libr
     	
     	
     		
-			<!ELEMENT libros (libro+)>
+			<!ELEMENT libros (libro+)> 	
+			<!-- Con el signo más (+) definimos que debe de aparecer por lo menos una vez. -->
     		<!ELEMENT libro (nombre_libro,autor,paginas_libro,indice,sinopsis)>
 			<!-- En id se pone que es de tipo ID para que se identifique como valor unico y no se pueda repetir-->
     		<!ATTLIST libro id ID #REQUIRED>
