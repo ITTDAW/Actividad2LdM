@@ -8,7 +8,8 @@
     <!-- Con el signo más (+) definimos que debe de aparecer por lo menos una vez. -->
     <!ELEMENT libro (titulo_libro,autor_libro,indice_libro,sinopsis)>
       <!ATTLIST libro id ID #REQUIRED> <!-- En id se pone que es de tipo ID para que se identifique como valor unico y no se pueda repetir-->
-      <!ATTLIST libro tipo_clase CDATA #REQUIRED>
+      <!ATTLIST libro tipo_clase (Novela|Infantil|Didáctico) #REQUIRED>
+      <!--En el parentesis anterior le estamos diciendo que el tipo_clase solo puede ser de esas clases que incluimos-->
       <!ATTLIST libro num_pag CDATA #REQUIRED>
       <!ELEMENT titulo_libro (#PCDATA)>
       <!-- Datos de carácter. Cuando un elemento solo va a contener datos de carácter analizados sintácticamente, se utiliza la
@@ -26,7 +27,7 @@ declaración (#PCDATA) -->
     <!ELEMENT revistas (revista+)>
       <!ELEMENT revista (titulo_revista,num_revista,indice_revista)>
         <!ATTLIST revista id ID #REQUIRED>
-        <!ATTLIST revista tipo_clase CDATA #REQUIRED>
+        <!ATTLIST revista tipo_clase (Informática|Corazón|Coches|Investigación|Otras) #REQUIRED>
         <!ATTLIST revista num_pag CDATA #REQUIRED>
         <!ELEMENT titulo_revista (#PCDATA)>
         <!ELEMENT num_revista (#PCDATA)>
@@ -40,7 +41,7 @@ declaración (#PCDATA) -->
     <!ELEMENT periodicos (periodico+)>
       <!ELEMENT periodico (titulo,indice)>
       <!ATTLIST periodico id ID #REQUIRED >
-      <!ATTLIST periodico tipo_clase CDATA #REQUIRED >
+      <!ATTLIST periodico tipo_clase (Nacional|Internacional) #REQUIRED >
       <!ATTLIST periodico num_pag CDATA #REQUIRED >
       <!ATTLIST periodico fecha_publicacion CDATA #REQUIRED>
       <!ELEMENT titulo (#PCDATA)>
