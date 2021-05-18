@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE biblioteca SYSTEM "Biblioteca.dtd">
+
+<biblioteca nombre="Biblioteca Publica Machado">
+
+
+    <libro id="L0001" tipo_clase="Novela">
+
+        <nombre_libro>La Reina Roja</nombre_libro>
+        <autor>Juan Gomez-Jurado</autor>
+        <paginas_libro numero="422"/>
+        <indice>
+            
+                <capitulo numero="1">
+                    <titulo>Un encargo</titulo>
+                    <contenido_capitulo enlace="www.megustaleer.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="30"/>
+                </capitulo>
+                <capitulo numero="2">
+                    <titulo>Un Flashback</titulo>
+                    <contenido_capitulo enlace="www.megustaleer.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="35"/>
+                </capitulo>
+                
+                <capitulo numero="3">
+                    <titulo>Un baile</titulo>
+                    <contenido_capitulo enlace="www.megustaleer.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="25"/>
+                </capitulo>
+
+                <capitulo numero="4">
+                    <titulo>Una Videollamada</titulo>
+                   <contenido_capitulo enlace="www.megustaleer.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                    inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="30"/>
+                </capitulo>
+        </indice> 
+        <sinopsis>
+            Antonia Scott es una mujer muy especial. Tiene un don que es al mismo tiempo una maldición: una extraordinaria inteligencia. Gracias a ella ha salvado decenas de vidas, pero también lo ha perdido todo. Hoy se parapeta contra el mundo en su piso casi vacío de Lavapiés, del que no piensa volver a salir.
+        </sinopsis>
+
+
+    </libro>
+    <libro id="L0002" tipo_clase="Infantil">
+
+        <nombre_libro>El Principito</nombre_libro>
+        <autor>Antoine de Saint-Exupéry</autor>
+        <paginas_libro numero="104"/>
+        <indice>
+           
+                <capitulo numero="1">
+                    <titulo>I</titulo>
+                    <contenido_capitulo enlace="www.megustaleer.com">  His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="2"/>
+                </capitulo>
+                <capitulo numero="2">
+                    <titulo>II</titulo>
+                    <contenido_capitulo enlace="www.megustaleer.com">  His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="3"/>
+                </capitulo>
+                <capitulo numero="3">
+                    <titulo>III</titulo>
+                   <contenido_capitulo enlace="www.megustaleer.com">  His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                    inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="3"/>
+                </capitulo>
+                <capitulo numero="4">
+                    <titulo>IV</titulo>
+                   <contenido_capitulo enlace="www.megustaleer.com">  His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                    inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="2"/>
+                </capitulo>
+
+           
+            
+        </indice>
+        <sinopsis>
+            El principito es un cuento poético que viene acompañado de ilustraciones hechas con acuarelas por el mismo Saint-Exupéry. En él, un piloto se encuentra perdido en el desierto del Sahara después de que su avión sufriera una avería, pero para su sorpresa, es allí donde conoce a un pequeño príncipe proveniente de otro planeta. La historia tiene una temática filosófica, donde se incluyen críticas sociales dirigidas a la «extrañeza» con la que los adultos ven las cosas.
+        </sinopsis>
+
+
+    </libro>
+
+    <libro  id="L0003" tipo_clase="Didáctico">
+
+        <nombre_libro>Lenguaje de Marcas y Sistemas de gestion de la Informacion</nombre_libro>
+        <autor>Raul Salgado</autor>
+       <paginas_libro numero="200"/>
+        <indice>
+            
+                <capitulo numero="1">
+                    <titulo>SGML</titulo>
+                    <contenido_capitulo enlace="www.edix.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="18"/>
+                </capitulo>
+                <capitulo numero="2">
+                    <titulo>Lenguaje de marcas en entornos web</titulo>
+                    <contenido_capitulo enlace="www.edix.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="60"/>
+                </capitulo>
+                <capitulo numero="3">
+                    <titulo>Gramaticas</titulo>
+                    <contenido_capitulo enlace="www.edix.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="8"/>
+                </capitulo>
+                <capitulo numero="4">
+                    <titulo>Herramientas de edición de código</titulo>
+                    <contenido_capitulo enlace="www.edix.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_capitulo>
+                    <paginas_capitulo numero="13"/>
+                </capitulo>
+
+          
+            
+        </indice>
+        <sinopsis>
+            El objetivo principal de este libro es servir de guía y proporcionar material de apoyo a los contenidos del módulo "Lenguajes de Marcas y Sistemas de Gestión de Información" (LMSGI) de los Ciclos Formativos de Grado Superior de Informática (ASIR, DAM y DAW).
+
+        </sinopsis>
+
+
+    </libro>
+
+    
+    <revista  id="R0001" tipo_clase="informatica">
+    	
+    		<titulo_revista>PC computer</titulo_revista>	
+    		<numerorevista numeropaginas="60"></numerorevista>
+    		
+    		<indice_revista>
+    			<seccion_revista titulo="JavaScript" numeropaginas="20">
+    				
+    				<contenido_revista informacion="www.PCcomputer.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			<seccion_revista titulo="Chollos pc's" numeropaginas="20">
+    				
+    				<contenido_revista informacion="www.PCcomputer.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			<seccion_revista titulo="Mundo internet" numeropaginas="20">
+    				
+    				<contenido_revista informacion="www.PCcomputer.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			
+    		</indice_revista>
+
+    	</revista>
+
+    	<revista  id="R0002" tipo_clase="corazón">
+
+    		<titulo_revista>Que me dices</titulo_revista>	
+
+    		<numerorevista numeropaginas="100"></numerorevista>
+    		
+    		<indice_revista>
+    			<seccion_revista titulo="¡¡Belen Esteban se va!!" numeropaginas="20">
+    				
+    				<contenido_revista informacion="www.quemedices.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			<seccion_revista titulo="Seguimos the dancer" numeropaginas="30">
+    				
+    				<contenido_revista informacion="www.quemedices.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			<seccion_revista titulo="Chavelita nos enseña su nueva casa" numeropaginas="50">
+    				
+    				<contenido_revista informacion="www.quemedices.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			
+    		</indice_revista>
+
+    	
+    	</revista>
+
+    	<revista id="R0003" tipo_clase="coches">
+    		<titulo_revista>A todo gas</titulo_revista>	
+    		<numerorevista numeropaginas="80"></numerorevista>
+    		
+    		<indice_revista>
+    			<seccion_revista titulo="Locos por el motor" numeropaginas="40">
+    				
+    				<contenido_revista informacion="www.atodogas.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			<seccion_revista titulo="Nuevo SUV" numeropaginas="20">
+    				
+    				<contenido_revista informacion="www.atodogas.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			<seccion_revista titulo="Coches electricos VS hibridos" numeropaginas="20">
+    				
+    				<contenido_revista informacion="www.atodogas.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			
+    		</indice_revista>
+    	
+    	</revista>
+
+    	<revista id="R0004" tipo_clase="investigaciòn">
+    		<titulo_revista>Muy interesante</titulo_revista>	
+    		<numerorevista numeropaginas="95"></numerorevista>
+    		
+    		<indice_revista>
+    			<seccion_revista titulo="Vacunacion covid-19" numeropaginas="40">
+    				
+    				<contenido_revista informacion="www.muyinteresante.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			<seccion_revista titulo="Viajes a Marte" numeropaginas="30">
+    				
+    				<contenido_revista informacion="www.muy interesante.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			<seccion_revista titulo="La selva amazonica" numeropaginas="25">
+    				
+    				<contenido_revista informacion="www.muyinteresante.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			
+    		</indice_revista>
+    	
+    	</revista>
+
+    	<revista id="R0005" tipo_clase="otros">
+    		<titulo_revista>NEO</titulo_revista>	
+    		<numerorevista numeropaginas="80"></numerorevista>
+    		
+    		<indice_revista>
+    			<seccion_revista titulo="La nueva moda, la moda bionica" numeropaginas="40">
+    				
+    				<contenido_revista informacion="www.neo.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			<seccion_revista titulo="Barrios it en Madrid" numeropaginas="20">
+    				
+    				<contenido_revista informacion="www.neo.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			<seccion_revista titulo="Tatuaje o arte" numeropaginas="20">
+    				
+    				<contenido_revista informacion="www.neo.com"> His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                        inde ad exercitum proficiscitur.</contenido_revista>
+
+    				
+    			</seccion_revista>
+    			
+    		</indice_revista>
+    	
+    	</revista>
+
+        <periodico  id="P0001" tipo_clase="Nacional">
+            <nombre_periodico añopublicacion="2021">El Mundo</nombre_periodico>
+ 
+            <indice_periodico>
+
+                <seccion_periodico tipo_seccion="España">
+                    <articulo nombre_autor="Juanma Lamet">
+                    	<nombre_articulo>Barones del PSOE y PP exigen grandes consensos en politicas clave</nombre_articulo>
+                    	
+                    	<contenido informacion="www.elmundo.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+
+                    <articulo nombre_autor="Marisa Cruz">
+                    	<nombre_articulo>Un gobierno por decreto: Sanchez el que mas ha usado esta formula</nombre_articulo>
+                    
+                    	<contenido informacion="www.elmundo.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+                    
+                </seccion_periodico>
+               
+                <seccion_periodico tipo_seccion="opinion">
+                    
+                    <articulo nombre_autor="Editorial">
+                    	
+                    	<nombre_articulo> 15-M, de la ilusion al desencanto en solo 10 años</nombre_articulo>
+                    	
+                    	<contenido informacion="www.elmundo.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                	</articulo>
+
+                    <articulo nombre_autor="Rafael de Mendizabal">
+                    	<nombre_articulo>El estado se ha convertido en prisionero de las comunidades autonomas</nombre_articulo>
+                    	
+                    	<contenido informacion="www.elmundo.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+
+                    </articulo>
+
+                    
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="deportes">
+                    <articulo nombre_autor="Ana Maria Nimo">
+                    	<nombre_articulo>Gonzalo Miro y Carlos Sobera: distintos equipos, misma pasion</nombre_articulo>
+                    	
+                     	<contenido informacion="www.elmundo.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+
+                    <articulo nombre_autor="Europa press">
+                     	<nombre_articulo>Moto GP. Quartararo conquista en casa su tercera pole seguida</nombre_articulo>
+                    
+                    	<contenido informacion="www.elmundo.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+                    
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="Internacional">
+                    <articulo  nombre_autor="Pablo R. Suanzes">
+                    	<nombre_articulo>La UE se pone de perfil asumiendo su incapacidad de mediar ante Israel</nombre_articulo>
+                    	
+                     	<contenido informacion="www.elmundo.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                     </articulo>
+
+                     <articulo nombre_autor="Sal Emergui">
+                     	<nombre_articulo>Operacion guardian de las murallas</nombre_articulo>
+                    	
+                    	<contenido informacion="www.elmundo.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+                    
+                </seccion_periodico>
+               
+                <seccion_periodico tipo_seccion="Economia">
+                    <articulo nombre_autor="Eduardo Fernandez">
+                    	<nombre_articulo>Orange España anuncia un ERE para unos 485 trabajadores</nombre_articulo>
+                    
+                     	<contenido informacion="www.elmundo.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+
+                    <articulo nombre_autor="Inma Lidon">
+                     	<nombre_articulo>El estado vota en contra de los sueldos de la cupula de CaixaBank</nombre_articulo>
+                    	
+                    	<contenido informacion="www.elmundo.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+                    
+                </seccion_periodico>
+
+             </indice_periodico>
+            
+        </periodico>
+
+
+        <periodico  id="P0002" tipo_clase="Internacional">
+        	<nombre_periodico añopublicacion="2021">New York Times</nombre_periodico>
+            
+            
+
+             <indice_periodico>
+                <seccion_periodico tipo_seccion="economica">
+                    <articulo nombre_autor="Tom Taker">
+                    	<nombre_articulo>What tik tok stars owe the Ellen DeGeneres Show</nombre_articulo>
+                    	
+                    	<contenido informacion="www.nytimes.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+
+                    <articulo nombre_autor="Lea Smith">
+                    	<nombre_articulo>As congress dithers, states step in to set rules for the internet</nombre_articulo>
+                    
+                    	<contenido informacion="www.nytimes.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+                    
+                </seccion_periodico>
+                <seccion_periodico tipo_seccion="opinion">
+                    <articulo nombre_autor="Tara Grove">
+                    	
+                    	<nombre_articulo> Elise Stefanik is playing a dangerous game whit her career</nombre_articulo>
+                    	
+                    	<contenido informacion="www.nytimes.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+
+                	</articulo>
+
+                    <articulo nombre_autor="The editorial board">
+                    	<nombre_articulo>Horse racing's deadly drug scandals</nombre_articulo>
+                    	
+                    	<contenido informacion="www.nytimes.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+
+                    </articulo>
+
+                    
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="deportes">
+                    <articulo nombre_autor="Timoti Church">
+                    	<nombre_articulo>The fall guy</nombre_articulo>
+                    	
+                     	<contenido informacion="www.nytimes.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+
+                    <articulo nombre_autor="Chris MUlligan">
+                     	<nombre_articulo>Shohei Ohtani unleashed</nombre_articulo>
+                    	
+                    	<contenido informacion="www.nytimes.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+                    
+                </seccion_periodico>
+
+                <seccion_periodico tipo_seccion="nacional">
+                    <articulo nombre_autor="Alexa Wang">
+                    	<nombre_articulo>Federal Mask retreat set off confusing scramble for States and cities</nombre_articulo>
+                    	
+                     	<contenido informacion="www.nytimes.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                     </articulo>
+
+                     <articulo nombre_autor="Trixi Mattel">
+                     	<nombre_articulo>Coronavirus briefing: what happened today</nombre_articulo>
+                    	
+                    	<contenido informacion="www.nytimes.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+                    
+                </seccion_periodico>
+               
+                <seccion_periodico tipo_seccion="internacional">
+                    <articulo nombre_autor="Hosan Salem">
+                    	<nombre_articulo>live updates: Israeli strike hits Gaza media tower as violence intensifies</nombre_articulo>
+                    	
+                     	<contenido informacion="www.nytimes.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+
+                    <articulo nombre_autor="Chris jenner">
+                    	<nombre_articulo>Miss universe Myanmar arrives in florida whit a message for the junta</nombre_articulo>
+                    
+                    	<contenido informacion="www.nytimes.com">His confectis rebus ac conventibus peractis, Caesar in Citeriorem Galliam revertitur atque
+                            inde ad exercitum proficiscitur.</contenido>
+                    </articulo>
+                    
+                </seccion_periodico>
+
+             </indice_periodico>
+            
+        </periodico>   
+
+</biblioteca>
