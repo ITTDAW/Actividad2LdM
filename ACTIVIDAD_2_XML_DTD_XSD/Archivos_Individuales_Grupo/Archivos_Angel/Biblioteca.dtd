@@ -1,5 +1,6 @@
 
-<!ELEMENT biblioteca (libro+,periodico+,revista+)>
+<!ELEMENT biblioteca (libro+,revista+,periodico+)>
+
     <!ATTLIST biblioteca nombre CDATA #REQUIRED>
 	
     <!ELEMENT libro (nombre_libro,autor,paginas_libro,indice,sinopsis)>
@@ -20,6 +21,20 @@
     			<!ATTLIST paginas_capitulo numero CDATA #REQUIRED>
 			<!ELEMENT sinopsis (#PCDATA)>
 
+			<!ELEMENT revista (titulo_revista,numerorevista,indice_revista)>
+			<!ATTLIST revista id CDATA #REQUIRED>
+			<!ATTLIST revista tipo_clase CDATA #REQUIRED>
+				<!ELEMENT titulo_revista (#PCDATA)>
+				<!ELEMENT numerorevista (#PCDATA)>
+				<!ATTLIST numerorevista numeropaginas CDATA #REQUIRED>
+				<!ELEMENT indice_revista (seccion_revista+)>
+					<!ELEMENT seccion_revista (contenido_revista)>
+					
+					<!ATTLIST seccion_revista titulo CDATA #REQUIRED>
+					<!ATTLIST seccion_revista numeropaginas CDATA #REQUIRED>
+					
+						<!ELEMENT contenido_revista (#PCDATA)>
+						<!ATTLIST contenido_revista informacion CDATA #REQUIRED>
 
             <!ELEMENT periodico (nombre_periodico,indice_periodico)>
     		<!ATTLIST periodico id CDATA #REQUIRED>
@@ -35,20 +50,3 @@
     				<!ELEMENT nombre_articulo (#PCDATA)>
     				<!ELEMENT contenido (#PCDATA)>
     				<!ATTLIST contenido informacion CDATA #REQUIRED>
-
-                    
-
-                    <!ELEMENT revista (titulo_revista,numerorevista,indice_revista)>
-                    <!ATTLIST revista id CDATA #REQUIRED>
-                    <!ATTLIST revista tipo_clase CDATA #REQUIRED>
-                        <!ELEMENT titulo_revista (#PCDATA)>
-                        <!ELEMENT numerorevista (#PCDATA)>
-                        <!ATTLIST numerorevista numeropaginas CDATA #REQUIRED>
-                        <!ELEMENT indice_revista (seccion_revista+)>
-                            <!ELEMENT seccion_revista (contenido_revista)>
-                            
-                            <!ATTLIST seccion_revista titulo CDATA #REQUIRED>
-                            <!ATTLIST seccion_revista numeropaginas CDATA #REQUIRED>
-                            
-                                <!ELEMENT contenido_revista (#PCDATA)>
-                                <!ATTLIST contenido_revista informacion CDATA #REQUIRED>

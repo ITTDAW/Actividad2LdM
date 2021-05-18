@@ -2,6 +2,7 @@
 <!DOCTYPE biblioteca SYSTEM "Biblioteca.dtd">
 
 <biblioteca nombre="Biblioteca Publica Machado">
+    
 
 
     <libro id="L0001" tipo_clase="Novela">
